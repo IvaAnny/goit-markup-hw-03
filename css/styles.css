@@ -41,7 +41,7 @@ padding-left :0;
 }
 
 .conteiner{
-    width: 1200;
+    width: 1200px;
     padding-left : 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -216,6 +216,7 @@ color: var(--title-color);
         display: flex;
         margin-left: -30px;
     margin-top: -30px;
+    margin-bottom: 30px;
     }
 .title{margin-bottom: 60px;
 }
@@ -273,14 +274,14 @@ flex-basis:calc( (100%-90px) /3 );}
 }
 .log-studio{
     color:var(--adress-color);
-    font-weight: 700;
+    font-weight: 700px;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
 
-.menu-list-footer {  font-weight: 400;
+.menu-list-footer {  font-weight: 400px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -306,16 +307,18 @@ letter-spacing: 0.03em;
 
 
 /* portfolio*/
+.heder-portfolio{margin-bottom: 94px;}
 .footer-lin{display: inline-block;
 margin-bottom: 20px;}
 .nav-button-description{
+    margin-bottom: 34px;
     display: flex;
 
     justify-content: center;
     }
     .nav-button-li:not(:last-child){margin-right: 8px;}
-.footer-conteiner{padding-top: 64px;
-padding-bottom: 62px;}
+.footer-conteiner{padding-top: 60px;
+padding-bottom: 60px;}
 .nav-button { 
     min-height: 38px;
     top: 174px;
@@ -335,7 +338,7 @@ padding-bottom: 62px;}
 
  .description-portfolio{display: flex;
     flex-wrap:wrap;
-    }
-.description-portfolio-link{margin-left: 30px;
+    margin-left: 30px;
     margin-top: 30px;
     flex-basis:calc( (100%-90px) /3 )}
+    }
