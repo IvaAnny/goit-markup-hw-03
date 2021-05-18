@@ -132,7 +132,9 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--adress-color);
 }
+.title-button{text-align: center;}
 .button { 
+    display: inline-block;
     min-width: 200px;
     min-height: 50px;
     left: 700px;
@@ -244,7 +246,6 @@ color: var(--title-color);
 
 .item-list-description {display: flex;
     margin-left: -30px;
-margin-top: -30px;
 }
 .item-list{ margin-left: 30px;
 margin-top: 30px;
@@ -292,18 +293,22 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;}
+    .conakt-adres:not(:last-child) {margin-bottom: 15px;}
+    .google-adres{margin-bottom: 15px;}
 /* footer */
 
 
 
 
 /* portfolio*/
+.footer-lin{display: inline-block;
+margin-bottom: 30px;}
 .nav-button-description{display: flex;
     margin: 0 auto;
     }
-
+.footer-conteiner{padding-top: 64px;
+padding-bottom: 62px;}
 .nav-button { 
-    
     min-height: 38px;
     top: 174px;
     min-width: 73px;
@@ -314,7 +319,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
-.nav-button:hover,
+
 .nav-button:focus {
     color: var( --adress-color);
     background: var(--logo-color);
