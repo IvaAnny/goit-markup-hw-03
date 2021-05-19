@@ -53,11 +53,14 @@ padding-left :0;
 
 .men .menu-item:not(:last-child){ margin-right: 50px;}
 .web-link{ margin-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .menu-li .menu-item:not(:last-child) {margin-right: 50px;}
  
 .conteiner .menu-list{display: flex;
 }
+.header{border: var(--button)}
 .header .conteiner {
     min-height: 80px;
     justify-content: space-between;
@@ -94,7 +97,7 @@ nav{display: flex;
     letter-spacing: 0.02em;
 }
 .header-link:focus,
-.header-link:hover:{ color:var(--logo-color) ;} 
+.header-link:hover:{ color:var(--logo-color);} 
 .header-links {font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -102,10 +105,10 @@ nav{display: flex;
 
 
 /*title section*/
-.title-conteiner{
-    padding-top: 188px;
-    padding-bottom: 212px;
-    margin-bottom: 82px;
+.title-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
     
 }
 .nav-lin {
@@ -113,7 +116,7 @@ nav{display: flex;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var (--logo-color);
+color: var(--logo-color);
 }
 
 .nav-link:focus,
@@ -218,7 +221,7 @@ color: var(--title-color);
     margin-top: -30px;
     }
     .img-ds{margin-bottom: 30px;}
-.title{margin-bottom: 60px;
+.title{margin-bottom: 50px;
 }
 .team {margin-bottom: 10px;}
 .categories {margin-bottom: 10px;}
@@ -234,28 +237,30 @@ margin-left: 30px;
 
 
 /* description-conteiner*/
+.description-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .description-conteiner{
-    margin-bottom: 89px;
     display: flex;
-    align-items: center;
 }
 .item-description{display: flex;
-    align-items: center;}
+    }
+    .item-description .item-list {width: 270px;}
     
 /* description-conteiner*/
 
 /*onteiner-work-examples*/
 
-.conteiner-work-examples{
-    margin-bottom: 93px;
+.section-work-examples{
+    padding-bottom: 94px;
 }
 
 .item-list-description {display: flex;
+    margin-top: -30px;
     margin-left: -30px;
 }
-.item-list{ margin-left: 30px;
-margin-top: 30px;
-flex-basis:calc( (100%-90px) /3 );}
+
 
 
 
