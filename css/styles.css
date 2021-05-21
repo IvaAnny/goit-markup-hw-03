@@ -364,18 +364,19 @@ padding-bottom: 60px;}
     color: var( --adress-color);
     background: var(--logo-color);
  }
- .port-list{ padding-top: 20px;
+ .port-list{ border-right: 1px solid #ECECEC;
+     border-bottom: 1px solid #ECECEC; 
+    border-left: 1px solid #ECECEC;
+padding-top: 20px;
 padding-right: 24px;
 padding-bottom: 20px;
 padding-left: 24px;}
 .title-portfolio{margin-bottom: 4px;}
 .description-portfolio-link{
-    border: 1px solid #ECECEC;;
     width: 370px;
     height: 404px;
     margin-top: 30px;
     margin-right: 30px;
-    flex-basis:calc( (100%-60px) /3 )
 }
 
 
@@ -383,4 +384,5 @@ padding-left: 24px;}
 .img-pr{display: block;}
  .description-portfolio{display: flex;
     flex-wrap:wrap;
+    margin-right: -30px;
     }
