@@ -238,7 +238,10 @@ padding-bottom: 30px;}
     margin-top: 30px;
 margin-left: 30px;
 }
-    
+    .team-li{border-right: 1px solid #ECECEC;
+        border-bottom: 1px solid #ECECEC; 
+       border-left: 1px solid #ECECEC;
+    background-color: var(--adress-color); }
 /*item-conteiner*/
 
 
@@ -247,6 +250,8 @@ margin-left: 30px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.description{margin-right: -30;}
+
 .description-conteiner{
     display: flex;
 }
