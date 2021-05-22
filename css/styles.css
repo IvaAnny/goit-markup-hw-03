@@ -250,7 +250,7 @@ margin-left: 30px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.description{margin-right: -30;}
+.description{margin-right: -30px;}
 
 .description-conteiner{
     display: flex;
@@ -390,4 +390,5 @@ padding-left: 24px;}
  .description-portfolio{display: flex;
     flex-wrap:wrap;
     margin-right: -30px;
+    margin-top: -30px;
     }
